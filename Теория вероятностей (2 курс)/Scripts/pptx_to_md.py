@@ -10,7 +10,7 @@ from pptx import Presentation
 
 BASE = Path(__file__).resolve().parents[1]
 SRC = BASE / "Презентации"
-OUT = BASE / "конспекты"
+OUT = BASE / "Лекции markdown"
 M_NS = "http://schemas.openxmlformats.org/officeDocument/2006/math"
 
 JUNK_LINES = {
